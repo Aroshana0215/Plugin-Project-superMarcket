@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: SuperMarketSubscriber
+Bundle-SymbolicName: SuperMarketSubscriber
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: supermarketsubscriber.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-15
+Automatic-Module-Name: SuperMarketSubscriber
+Import-Package: org.osgi.framework;version="1.3.0",
+ supermarketserviceer
+Bundle-ActivationPolicy: lazy
